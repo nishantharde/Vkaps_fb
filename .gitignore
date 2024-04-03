@@ -1,0 +1,5 @@
+.env
+app.py
+output.txt
+paragraphs.json
+test.py
