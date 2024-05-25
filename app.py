@@ -1,8 +1,12 @@
 #  branch main app.py
 
+#  branch test1 app.py 
+
 from openai import OpenAI
 import streamlit as st
-client =OpenAI(api_key=OPENAI_API_KEY) 
+from dotenv import load_dotenv
+load_dotenv()
+client =OpenAI() 
 # Upload a file with an "assistants" purpose
 file = client.files.create(
   file=open("speech.py", "rb"),
