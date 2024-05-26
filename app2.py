@@ -4,7 +4,7 @@ from langchain.chains.summarize import load_summarize_chain
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_openai import ChatOpenAI
 load_dotenv()
-
+#  testing app2.py for git diff command 
 st.set_page_config(page_title="URL Summirazer", page_icon=":face:")
 st.markdown("<h1 style='text-align: center;'>URL TO MEDIA_POST</h1>", unsafe_allow_html=True)
 st.session_state['URL']=st.text_input("Past  URL Here ",type="default")
